@@ -22,6 +22,26 @@
     border-radius: 0.2rem;
 }
 
+.btnContainer {
+    padding: 0.3rem 0.9rem;
+}
+
+.btnComp {
+    margin: 0rem 0.4rem;
+}
+
+.heartBtnComp {
+    border: 0.2rem solid violet;
+    border-radius: 0.3rem;
+    margin: 0rem 0.4rem;
+}
+
+.vrBtnComp {
+    margin: 0rem 0.4rem;
+    border-radius: 0.3rem;
+    border: 0.2rem solid slateblue;
+}
+
 @media only screen and (max-width: 650px) {
     .parentContainer {
         flex-direction: column-reverse;

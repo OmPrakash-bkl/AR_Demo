@@ -27,19 +27,21 @@
 }
 
 .btnComp {
-    margin: 0rem 0.4rem;
+    margin: 0rem 0.4rem !important;
 }
 
 .heartBtnComp {
-    border: 0.2rem solid violet;
-    border-radius: 0.3rem;
-    margin: 0rem 0.4rem;
+    border: 0.2rem solid violet !important;
+    border-radius: 0.3rem !important;
+    margin: 0rem 0.4rem !important;
+    padding: 0.4rem !important;
 }
 
 .vrBtnComp {
-    margin: 0rem 0.4rem;
-    border-radius: 0.3rem;
-    border: 0.2rem solid slateblue;
+    margin: 0rem 0.4rem !important;
+    border-radius: 0.3rem !important;
+    border: 0.2rem solid slateblue !important;
+    padding: 0.1rem !important;
 }
 
 @media only screen and (max-width: 650px) {
@@ -62,6 +64,17 @@
         width: 17rem;
         padding: 0.8rem;
     }
+}
+
+@media only screen and (max-width: 450px) {
+    
+.heartBtnComp {
+    margin: 0.5rem 0.4rem !important;
+}
+
+.vrBtnComp {
+    margin: 0.5rem 0.4rem !important;
+}
 }
 
 @media only screen and (max-width: 435px) {

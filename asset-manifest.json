@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ar_demo/static/css/main.535c394d.css",
+    "main.js": "/ar_demo/static/js/main.32b1b9e6.js",
+    "static/js/787.60ce5c9c.chunk.js": "/ar_demo/static/js/787.60ce5c9c.chunk.js",
+    "static/media/monitordemo.jpg": "/ar_demo/static/media/monitordemo.e121ec3a705b24e6b395.jpg",
+    "static/media/clockdemo.jpg": "/ar_demo/static/media/clockdemo.2b7bae95181b8a622c07.jpg",
+    "static/media/toydemo.jpg": "/ar_demo/static/media/toydemo.c51e68769fb82ec2102c.jpg",
+    "static/media/furnituredemo.jpg": "/ar_demo/static/media/furnituredemo.ed407122b9259e04af8a.jpg",
+    "static/media/toiletdemo.jpg": "/ar_demo/static/media/toiletdemo.a2db0f76bc2eb2a81674.jpg",
+    "static/media/logo.png": "/ar_demo/static/media/logo.d6945ca822ecf58e035b.png",
+    "static/media/plantdemo.jpg": "/ar_demo/static/media/plantdemo.a4fcf4106bc335287b9a.jpg",
+    "static/media/dressdemo.jpg": "/ar_demo/static/media/dressdemo.afb1ba8867c2ef27cfb0.jpg",
+    "static/media/tilesdemo.jpg": "/ar_demo/static/media/tilesdemo.0dc4fca1ba54e260faaf.jpg",
+    "index.html": "/ar_demo/index.html",
+    "main.535c394d.css.map": "/ar_demo/static/css/main.535c394d.css.map",
+    "main.32b1b9e6.js.map": "/ar_demo/static/js/main.32b1b9e6.js.map",
+    "787.60ce5c9c.chunk.js.map": "/ar_demo/static/js/787.60ce5c9c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.535c394d.css",
+    "static/js/main.32b1b9e6.js"
+  ]
+}

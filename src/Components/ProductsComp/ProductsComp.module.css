@@ -1,0 +1,35 @@
+.imageWrapper {
+    max-height: 10rem;
+    height: 10rem;
+    display: flex;
+    overflow-x: auto;
+    margin: 0rem 0.8rem;
+}
+
+h2, h3 {
+    margin: 0.2rem 1rem;
+}
+
+.imageWrapper::-webkit-scrollbar {
+    width: 0rem;
+}
+
+.imageContainer {
+    min-height: 8rem;
+    height: 8rem;
+    width: 8rem;
+    margin: 0.2rem;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    margin-right: 0.2rem;
+}
+
+.arImage {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 0.2rem;
+}
+
+

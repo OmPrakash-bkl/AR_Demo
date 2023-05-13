@@ -1,0 +1,59 @@
+.parentContainer {
+    flex-direction: row;
+}
+
+.parentInnerContainer {
+    flex-direction: column;
+}
+
+.imageTag {
+    height: 5.5rem;
+    padding: 0.2rem 0rem;
+    width: 6rem;
+    border: 0.1rem solid gainsboro;
+    padding: 0.3rem;
+    margin: 0.2rem 0rem;
+}
+
+.bigImageTag {
+    height: 18rem;
+    border: 0.1rem solid gainsboro;
+    padding: 0.8rem;
+    border-radius: 0.2rem;
+}
+
+@media only screen and (max-width: 650px) {
+    .parentContainer {
+        flex-direction: column-reverse;
+    }
+
+    .parentInnerContainer {
+        flex-direction: row;
+    }
+
+    .parentInnerContainer img {
+        margin: 0rem 0.3rem;
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .bigImageTag {
+        height: 15rem;
+        width: 17rem;
+        padding: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 435px) {
+
+    .parentInnerContainer img {
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+
+    .bigImageTag {
+        height: 10rem;
+        width: 13rem;
+        padding: 0.5rem;
+    }
+}

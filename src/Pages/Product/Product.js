@@ -16,8 +16,6 @@ function Product() {
     const { ProId } = useParams();
     const [ Link, setLink ] = useState("");
     const [ Image, setImage ] = useState("");
-    console.log(ProId);
-
     useEffect(()=> {
 
         switch(ProId) {

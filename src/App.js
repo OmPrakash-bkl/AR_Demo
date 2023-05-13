@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <div className="App"> 
-      <BrowserRouter>
+      <BrowserRouter basename="/AR_Demo">
       <Routes>
       <Route path="/" exact element={<Home />} />
       <Route path="/Products" exact element={<Products />} />

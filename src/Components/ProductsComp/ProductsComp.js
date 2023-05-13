@@ -9,6 +9,7 @@ import clocks from '../../Assets/Demo_Pics/clockdemo.jpg';
 import monitors from '../../Assets/Demo_Pics/monitordemo.jpg';
 import plants from '../../Assets/Demo_Pics/plantdemo.jpg';
 import toilets from '../../Assets/Demo_Pics/toiletdemo.jpg';
+import { Link } from 'react-router-dom';
 
 
 const dressImages = [
@@ -106,76 +107,92 @@ function ProductsComp() {
         <h2><u>All Products</u></h2> 
     </Box>
        <h3>Dresses</h3>
+        <Link to="/Product/dress">
         <div className={Styles.imageWrapper}>
-            {dressImages.map((image) => (
-            <div className={Styles.imageContainer}>
+            {dressImages.map((image, index) => (
+            <div className={Styles.imageContainer} key={index}>
                 <img src={image.arModels.url} alt={image.arModels.name} className={Styles.arImage} />
             </div>
             ))}
         </div>
+        </Link>
 
         <h3>Tiles</h3>
+        <Link to="/Product/tile">
         <div className={Styles.imageWrapper}>
-            {tilesImages.map((image) => (
-            <div className={Styles.imageContainer}>
+            {tilesImages.map((image, index) => (
+            <div className={Styles.imageContainer} key={index}>
                 <img src={image.arModels.url} alt={image.arModels.name} className={Styles.arImage} />
             </div>
             ))}
         </div>
+        </Link>
 
         <h3>Furniture</h3>
+        <Link to="/Product/furniture">
         <div className={Styles.imageWrapper}>
-            {furnitureImages.map((image) => (
-            <div className={Styles.imageContainer}>
+            {furnitureImages.map((image, index) => (
+            <div className={Styles.imageContainer} key={index}>
                 <img src={image.arModels.url} alt={image.arModels.name} className={Styles.arImage} />
             </div>
             ))}
         </div>
+        </Link>
 
         <h3>Clocks</h3>
+        <Link to="/Product/clock">
         <div className={Styles.imageWrapper}>
-            {clocksImages.map((image) => (
-            <div className={Styles.imageContainer}>
+            {clocksImages.map((image, index) => (
+            <div className={Styles.imageContainer} key={index}>
                 <img src={image.arModels.url} alt={image.arModels.name} className={Styles.arImage} />
             </div>
             ))}
         </div>
+        </Link>
 
         <h3>Plants</h3>
+        <Link to="/Product/plant">
         <div className={Styles.imageWrapper}>
-            {plantsImages.map((image) => (
-            <div className={Styles.imageContainer}>
+            {plantsImages.map((image, index) => (
+            <div className={Styles.imageContainer} key={index}>
                 <img src={image.arModels.url} alt={image.arModels.name} className={Styles.arImage} />
             </div>
             ))}
         </div>
+        </Link>
 
         <h3>Monitors</h3>
+        <Link to="/Product/monitor">
         <div className={Styles.imageWrapper}>
-            {monitorsImages.map((image) => (
-            <div className={Styles.imageContainer}>
+            {monitorsImages.map((image, index) => (
+            <div className={Styles.imageContainer} key={index}>
                 <img src={image.arModels.url} alt={image.arModels.name} className={Styles.arImage} />
             </div>
             ))}
         </div>
+        </Link>
 
         <h3>Toilets</h3>
+        <Link to="/Product/toilet">
         <div className={Styles.imageWrapper}>
-            {toiletsImages.map((image) => (
-            <div className={Styles.imageContainer}>
+            {toiletsImages.map((image, index) => (
+            <div className={Styles.imageContainer} key={index}>
                 <img src={image.arModels.url} alt={image.arModels.name} className={Styles.arImage} />
             </div>
             ))}
         </div>
+        </Link>
 
         <h3>Toys</h3>
+        <Link to="/Product/toy">
         <div className={Styles.imageWrapper}>
-            {toysImages.map((image) => (
-            <div className={Styles.imageContainer}>
+            {toysImages.map((image, index) => (
+            <div className={Styles.imageContainer} key={index}>
                 <img src={image.arModels.url} alt={image.arModels.name} className={Styles.arImage} />
             </div>
             ))}
         </div>
+        </Link>
     </>
   );
 }
